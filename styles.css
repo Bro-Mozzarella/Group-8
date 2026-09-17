@@ -5,6 +5,10 @@ html, body{
     background-attachment: fixed;
     background-repeat: no-repeat;   
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
 .navbar {
   display: flex;
   justify-content: space-between; 
@@ -30,6 +34,15 @@ html, body{
   color: black;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+.links a:hover {
+  background-color: #eb8d9c;
+  border-radius: 5px;
+  background-size: 15px;
+  transition-property: background-color;
+  transition-duration: 0.5s;     
 }
 #box{
     border-radius: 25px;
