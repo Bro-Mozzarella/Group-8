@@ -53,16 +53,14 @@ html {
   transition-property: background-color;
   transition-duration: 0.5s;     
 }
-#box{
+#box {
     border-radius: 25px;
     border: 5px solid;
     border-color: rgba(250, 224, 224, 0.575);
-    height: 4100px;
-    width: 750px;
-    position: relative;
-    left: 20%;
     background-color: white;
-    margin-top: 110px;
+    width: 90%;
+    max-width: 750px;
+    margin: 110px auto 40px auto;
     padding: 30px;
     flex-direction: column;
     display: flex;
@@ -70,7 +68,8 @@ html {
     box-sizing: border-box;
     align-items: center;
     box-shadow: 8px 10px #836d58cb;
-    z-index: 1;
+    position: relative;
+    z-index: 1; 
 }
 #box1{
     border-color: rgb(250, 194, 126);
